@@ -31,7 +31,7 @@ public class RisolviQuadrato {
 	// procedura ricorsiva (privata)
 	private void cerca(List<Integer> parziale, int livello) {
 		
-		if(livello==N2) {
+		if(livello==N2) { 
 			// caso terminale
 			if(controlla(parziale)) {
 				// è magico!!
